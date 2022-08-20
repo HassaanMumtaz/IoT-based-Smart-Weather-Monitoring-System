@@ -1,0 +1,27 @@
+This folder consists of the code files used in our project
+
+1. ESP8266_Code
+This is c language file consist of NODEMCU ESP8266 Code. The file is uploaded on ESP8266 using the arduino IDE.
+
+2. home
+The HTML file, contain the code for homepage of the website. The file can be open to display the homepage in chrome
+
+3. aboutpage
+It is also the HTML code file, which has the code for the aboutpage of our project
+
+
+4. graph-data
+The HTML code file for the graph page of the website.
+
+
+5. post-data
+PHP Language file to collect the data from the nodemcu for the database
+
+6. sql
+SQL and PHP langauge file to generate and integrate the database for the website
+
+
+7. MATLAB_Code
+This is MATLAB programming file, which we used in cloud to determine the realfeel, dewpoint, max temperature and minimum temperature. The file is save and executed on cloud
+
+

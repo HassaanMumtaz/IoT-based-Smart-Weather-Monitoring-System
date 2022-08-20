@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Document</title>
+    <style>
+        section{
+            padding-top:4vw;
+            padding-bottom: 4vw;
+            border:none;
+        }
+    </style>
+</head>
+<body class="indigo lighten-5">
+
+    <nav class="nav-wraper indigo">
+        <div class="container">
+            <div class="brand-logo right "><a href="https://weathermonitoringstationee.000webhostapp.com/home.html">Weather Station</a></div>
+            <ul class="left-align">
+                <li><a href="https://weathermonitoringstationee.000webhostapp.com/about.html" >About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    
+    <div class=" center container col s12 l6  ">
+    
+    <a href="https://weathermonitoringstationee.000webhostapp.com//sql.php" class="btn indigo lighten-4">SQL Data
+    <i class="material-icons right">cloud</i></a>
+        <h1 class="indigo-text text-darken-4">ThingSpeak Graph Plots</h1>
+        <p class="indigo-text text-lighten-1">
+            Note : The data here will be updated as soon as you refresh the page.
+        </p>
+    </div>
+    <section class="container" id="Photos">
+    
+        <div class="center">
+            <div class="col s12 l4 offset-l1">
+                <h3 class="indigo-text text-darken-4">Temprature Data</h3>
+            </div>
+            <div class="col s12 l6">
+                <iframe  width="460" height="280" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/439000"></iframe>        
+            </div>
+
+
+            <div class="col s12 l4 offset-l1">
+                <h3 class="indigo-text text-darken-4">Pressure Data</h3>
+            </div>
+            <div class="col s12 l6">
+                <iframe  width="460" height="280" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/441280"></iframe>
+
+            </div>
+
+
+            <div class="col s12 l4 offset-l1">
+                <h3 class="indigo-text text-darken-4">Altitude Data</h3>
+            </div>
+            <div class="col s12 l6">
+                <iframe width="460" height="280" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/441299"></iframe>
+            </div>
+
+            
+            <div class="col s12 l4 offset-l1">
+                <h3 class="indigo-text text-darken-4">Humidity Data</h3>
+            </div>
+            <div class="col s12 l6">
+                <iframe width="460" height="280" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/441300"></iframe>
+
+            </div>
+
+
+            <div class="col s12 l4 offset-l1">
+                <h3 class="indigo-text text-darken-4">Rain Data</h3>
+                <p class="indigo-text text-lighten-1">
+                    Note : The data here will be updated as soon as there is rain and then it decreases to its required value, for example 3mm of rain.
+                </p>
+            </div>
+            <div class="col s12 l6">
+                <iframe width="460" height="280" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/441301"></iframe>
+
+            </div>
+
+
+            <div class="col s12 l4 offset-l1">
+                <h3 class="indigo-text text-darken-4">Light Intensity Data</h3>
+                <p class="indigo-text text-lighten-1">
+                Note : The data here will be updated as soon as there is decreased light to its required value.
+                </p>
+            </div>
+            <div class="col s12 l6">
+                <iframe width="460" height="280" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/441302"></iframe>
+
+            </div>
+
+            <div class="col s12 l4 offset-l1">
+                <h3 class="indigo-text text-darken-4">Air Quality Data</h3>
+            </div>
+            <div class="col s12 l6">
+                <iframe width="460" height="280" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/441303"></iframe>
+
+            </div>
+
+
+            <div class="col s12 l4 offset-l1">
+                <h3 class="indigo-text text-darken-4">Real Feel Data</h3>
+            </div>
+            <div class="col s12 l6">
+                <iframe width="460" height="280" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/441314"></iframe>
+
+            </div>
+
+
+
+            <div class="col s12 l4 offset-l1">
+                <h3 class="indigo-text text-darken-4">Dew Point Data</h3>
+            </div>
+            <div class="col s12 l6">
+                <iframe width="460" height="280" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/441315"></iframe>
+
+            </div>
+
+
+
+        </div>
+        
+
+    </section>
+
+</body>
+</html>
+
+
+

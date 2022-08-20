@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Document</title>
+    <style>
+        section{
+            padding-top:4vw;
+            padding-bottom: 4vw;
+        }
+    </style>
+</head>
+<body class="indigo lighten-5">
+
+    <nav class="nav-wraper indigo">
+        <div class="container">
+            <div class="brand-logo right "><a href="https://weathermonitoringstationee.000webhostapp.com/home.html">Weather Station</a></div>
+            <ul class="left-align">
+                <li>About</li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container center">
+
+         <a href="https://weathermonitoringstationee.000webhostapp.com//sql.php" class="btn indigo lighten-4">SQL Data
+         <i class="material-icons right">cloud</i></a>
+         <a href="https://weathermonitoringstationee.000webhostapp.com//graph.html" class="btn indigo lighten-3">Graph Data
+         <i class="material-icons right">analytics</i></a>
+    </div>
+    
+    <div class="container col s12 l6  ">
+        <h1 class="indigo-text text-darken-4">What is "WEATHER MONITORING STATION"?</h1>
+        
+        <p class="indigo-text text-lighten-1">
+            The internet of things is a system of interrelated computing devices, mechanical and digital machines, that provide unique identifiers with the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction. All those improvements are developed to facilitate human work and make lifestyles simpler than earlier. An NodeMCU-based based weather monitoring system implementation is proposed to monitor temperature, humidity, pressure, rain intensity, air quality, and altitude, based in geographically distant areas. The weather monitoring system is based on sensory inputs, that periodically update data to the cloud.
+        </p>
+    </div>
+    <section class="container" id="Photos">
+    
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4CtQoHjv7w-FVG6uf3vhBqdk4TVn05y3z4Q&usqp=CAU" alt="" class="responsive-img">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h3 class="indigo-text text-darken-4">Circuit Information</h3>
+                <p class="indigo-text text-lighten-1">The circuit consists of Arduino based code configured with our ESP8266 based NodeMCU V3 to recieve data from our DHT11(Humidity),BMP 180(Temprature,Pressure,Altitude),MQ2(Air Quality)</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/06/ESP32-MySQL-Project-Overview.png?resize=750%2C680&quality=100&strip=all&ssl=1" alt="" class="responsive-img">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h3 class="indigo-text text-darken-4">Cloud Connection Path</h3>
+                <p class="indigo-text text-lighten-1">The ESP 8266 uses PHP server side scripting and back-end HTTP data configuration to send data to our ThingSpeak and MySQL cloud</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="https://hackster.imgix.net/uploads/attachments/895306/php_listexample_BxKQQZPf9g.jpg?auto=compress%2Cformat&w=1280&h=960&fit=max" alt="" class="responsive-img">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h3 class="indigo-text text-darken-4">SQL Data</h3>
+                <p class="indigo-text text-lighten-1">JSON data is posted by the ESP8266, using PHP server-side scripting language. This is then inserted into the database using INSERT, after extracting the necessary values from it. This data is then pulled out from this database using the READ command into "SQL Data"(accessible on the home page)</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="https://www.researchgate.net/publication/332140227/figure/fig2/AS:876309496475653@1585939873961/Example-of-temperature-result-from-thingspeak-website.jpg" alt="" class="responsive-img">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h3 class="indigo-text text-darken-4">Graph Data</h3>
+                <p class="indigo-text text-lighten-1"5>ThingSpeak acts as an open-source Internet of Things(IoT) application where data is sent from ESP8266, to analyze and visualize uploaded data using either MATLAB custom plots or ThingSpeak generated graphs. These are posted to our website using their specific URLs into "Graph Data"(accessible on the home page)</p>
+            </div>
+        </div>
+        
+
+    </section>
+
+</body>
+</html>
+
+
+
